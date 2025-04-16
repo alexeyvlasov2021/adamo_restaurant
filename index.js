@@ -17,7 +17,7 @@ const animate_loading = () => {
                 img1.style.display = 'block'
                 adamo.style.display = 'block'
             },
-            // delay: 1,
+            delay: 1,
             scaleY: 0,
             transformOrigin: 'center bottom',
             duration: 2,
@@ -42,7 +42,7 @@ const animate_loading = () => {
                 img2.style.display = 'block'
                 adamo.style.display = 'block'
             },
-            // delay: 1,
+            delay: 1,
             scaleY: 0,
             transformOrigin: 'center bottom',
             duration: 2,
@@ -67,7 +67,7 @@ const animate_loading = () => {
                 img3.style.display = 'block'
                 adamo.style.display = 'block'
             },
-            // delay: 1,
+            delay: 1,
             scaleY: 0,
             transformOrigin: 'center bottom',
             duration: 2,
