@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+
+#loading{
+    width: 100vw;
+    height: 100vh;
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* don't forget to remove */
+    /* display: none; */
+}
+
+.meals img{
+    width: 450px;
+    display: none;
+}
+
+#adamo{
+    width: 150px;
+    position: relative;
+    left: -150px;
+    display: none;
+    opacity: 0;
+}
+
+#myVideo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -1;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsla(0, 0%, 0%, 0.6);
+    gap: 20px;
+    display: none;
+}
+
+main h1{
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 200px;
+  }
+
+main button{
+    width: 150px;
+    height: 60px;
+    color: white;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-transform: uppercase;
+}
+
+main button:hover{
+    background-color: hsla(0, 0%, 100%, 0.10);
+}
